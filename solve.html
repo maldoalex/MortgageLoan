@@ -53,6 +53,34 @@ $
    </div>
   </div>
  </header>
+
+ <main class="container pt-3">
+  <div class="row">
+   <div class="col-md">
+    <h1>Mortgage Loan Calculator</h1>
+    <p>Calculate mortgage payments based off inputs of balance, term , and rate.</p>
+    <hr>
+    <p>Loan Amount</p>
+    <input type="number" id="amount">
+    <hr>
+    <p>Term(Months)</p>
+    <input type="number" id="term">
+    <hr>
+    <p>Interest Rate</p>
+    <input type="number" id="interest">
+
+    <h1>Output</h1>
+    <h3>Monthly Payment</h3>
+    <p id="month"></p>
+    <p id="monthlyPayment"></p>
+    <p id="interestPayment"></p>
+    <p id="principalPayment"></p>
+    <p id="remainingBalance"></p>
+    <br>
+    <button id="btnSubmit" class="btn btn-primary">Submit</button>
+   </div>
+  </div>
+ </main>
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
